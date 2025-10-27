@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Legado de la Familia Arce Orocollo</title>
+    <style>
+        /* Estilos Generales */
+        body {
+            font-family: 'Georgia', serif; /* Una fuente clásica para un legado */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        .container {
+            max-width: 960px;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #4CAF50; /* Un verde que simboliza crecimiento y esperanza */
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            border-bottom: 5px solid #388E3C;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        header p {
+            font-style: italic;
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+
+        /* Sección de Contenido */
+        section {
+            background-color: white;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+        section h2 {
+            color: #2E8B57; /* Un verde oscuro para los títulos */
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 2em;
+            border-bottom: 2px solid #D4EDDA;
+            padding-bottom: 10px;
+        }
+        section p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        .intro-image {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Sección de la Pareja */
+        .couple-section {
+            display: flex;
+            flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+            justify-content: center;
+            align-items: center;
+            gap: 40px; /* Espacio entre los elementos */
+            text-align: center;
+        }
+        .person {
+            flex: 1; /* Permite que cada persona ocupe espacio flexible */
+            min-width: 250px; /* Ancho mínimo para que no se compriman demasiado */
+            padding: 20px;
+            background-color: #fdfdfd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .person img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%; /* Imágenes circulares */
+            object-fit: cover;
+            border: 4px solid #4CAF50;
+            margin-bottom: 15px;
+        }
+        .person h3 {
+            color: #388E3C;
+            font-size: 1.8em;
+            margin-bottom: 5px;
+        }
+        .person p {
+            font-size: 1em;
+            color: #555;
+        }
+        .heart-icon {
+            font-size: 3em;
+            color: #E91E63; /* Un corazón rojo pasión */
+            margin: 20px 0;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        /* Sección de Hijos/Generaciones */
+        .generations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Columnas responsivas */
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .generation-member {
+            background-color: #fdfdfd;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        .generation-member img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #66BB6A;
+            margin-bottom: 10px;
+        }
+        .generation-member h4 {
+            color: #4CAF50;
+            margin: 0 0 5px 0;
+            font-size: 1.3em;
+        }
+        .generation-member p {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        /* Pie de página */
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 0.9em;
+            border-top: 5px solid #388E3C;
+        }
+
+        /* Responsividad básica */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2em;
+            }
+            .couple-section {
+                flex-direction: column;
+            }
+            .person {
+                min-width: unset;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>El Legado de la Familia Arce Orocollo</h1>
+            <p>"Unidos por el amor, construyendo un futuro juntos"</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Nuestra Historia Comienza</h2>
+            <img src="https://via.placeholder.com/600x300?text=Foto+Inicio+Legado" alt="Inicio del Legado" class="intro-image">
+            <p>Todo gran legado tiene un punto de partida, y para la familia Arce Orocollo, ese momento mágico fue la unión de <strong>Maxh y Dany</strong>. Con valores arraigados en el amor, el respeto, la perseverancia y la dedicación, sentaron las bases de lo que se convertiría en un árbol genealógico fuerte y vibrante. Su visión compartida de un futuro lleno de propósito y contribución ha sido la chispa que ilumina el camino para las generaciones venideras.</p>
+            <p>Desde sus primeros pasos juntos, Maxh y Dany han cultivado un ambiente de apoyo mutuo y trabajo duro, siempre buscando lo mejor para su descendencia. Su ejemplo es la esencia de este legado.</p>
+        </section>
+
+        <section>
+            <h2>Maxh y Dany: Los Pilares del Legado</h2>
+            <div class="couple-section">
+                <div class="person">
+                    <img src="https://via.placeholder.com/200x200?text=Foto+de+Maxh" alt="Maxh Arce">
+                    <h3>Maxh Arce</h3>
+                    <p>La fuerza, la visión y la determinación. Maxh ha aportado la guía y el liderazgo, siempre con un compromiso inquebrantable con los principios familiares. Su espíritu emprendedor y su capacidad de superar desafíos han sido fundamentales.</p>
+                    </div>
+                <div class="heart-icon">❤️</div>
+                <div class="person">
+                    <img src="https://via.placeholder.com/200x200?text=Foto+de+Dany" alt="Dany Orocollo">
+                    <h3>Dany Orocollo</h3>
+                    <p>La calidez, la empatía y el corazón. Dany ha sido el alma de la familia, fomentando la unión, la comprensión y el amor incondicional. Su sabiduría y paciencia han sido el refugio en cada paso del camino.</p>
+                    </div>
+            </div>
+            <p style="margin-top: 30px; text-align: center; font-style: italic;">"Juntos, construyeron no solo una familia, sino un sueño que se extiende a través del tiempo."</p>
+        </section>
+
+        <section>
+            <h2>El Legado Continúa: Una Visión de Futuro</h2>
+            <p>La familia Arce Orocollo se distingue por Su deseo es que las futuras generaciones no solo hereden un apellido, sino también un conjunto de principios sólidos y un propósito claro para impactar positivamente el mundo.</p>
+            <p>Este legado no es solo de sangre, sino de ideales que se transmiten de corazón a corazón. Es una promesa de apoyo, de aprendizaje constante y de celebración de cada logro, grande o pequeño.</p>
+            <img src="https://via.placeholder.com/600x300?text=Vision+de+Futuro" alt="Visión de Futuro" class="intro-image">
+
+        </section>
+
+        <section>
+            <h2>Nuestras Generaciones Futuras</h2>
+            <p>Con gran orgullo, presentamos a quienes continúan y expandirán este hermoso legado. Cada miembro aporta su luz única, enriqueciendo la historia de la familia Arce Orocollo.</p>
+            <div class="generations-grid">
+                <div class="generation-member">
+                    <img src="https://via.placeholder.com/150x150?text=Foto+Hijo1" alt="Hija 1">
+                    <h4>ARCE OROCOLLO SOFIA MADDYNSON</h4>
+                    <p>ILOVIU</p>
+                </div>
+                <div class="generation-member">
+                    <img src="https://via.placeholder.com/150x150?text=Foto+Hijo2" alt="Hija 2">
+                    <h4>ARCE OROCOLLO DESTINY GISELE</h4>
+                    <p>DESTINYY</p>
+                 </div>
+                <div class="generation-member">
+                    <img src="https://via.placeholder.com/150x150?text=Foto+Hijo3" alt="Hijo/a 3">
+                    <h4>ARCE OROCOLLO MAXIMILIANO</h4>
+                    <p>MAXI</p>
+        
+                </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Familia Arce Orocollo. Todos los derechos reservados.</p>
+            <p>Creando un legado para las generaciones futuras.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
